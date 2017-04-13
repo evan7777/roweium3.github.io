@@ -117,12 +117,12 @@ textarea {
   top: 0px;
 }
 .bg-one {
-  background: url("../images/bg.jpg");
+  background: url("../images/roweium/keyboard_process.jpg");
   background-size: cover;
   position: relative;
 }
 .bg-two {
-  background: url("../images/bg-2.jpg");
+  background: url("../images/roweium/bg.jpg");
   background-size: cover;
   position: relative;
 }
@@ -617,6 +617,7 @@ textarea {
 }
 
 
+
 /*======= Responsive ======*/
 @media (min-width: 768px) {
   .navbar-nav>li>a {
@@ -651,3 +652,4 @@ textarea {
     padding: 0px 0px 50px 30px !important;
   }
 }
+
