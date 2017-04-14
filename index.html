@@ -541,6 +541,29 @@
 
   <!--END TESTIMONIALS -->
 
+   <!--<div class="footer-cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="chat-content">
+<div class="title-full-width" style="margin-top: 40px;margin-bottom:2px;opacity: 1; color:#fff;">
+            <div class="container">
+                <h1 class="animated fadeInDown wow animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s;">Looking To Get Started?</h1>
+            </div>
+        </div>
+     <div style="margin-top: 1px;margin-bottom:50px;" class="tp-caption home-button sft fadeout slider-button">
+        <a href="http://roweium.com/www/get_a_quote" class="btn btn-white animated fadeInDown wow animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">Get Free Quote <i class="fa fa-angle-right"></i></a>
+    </div>
+                        
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+
+
+
   
   <!-- FOOTER CTA -->
   <section class="section bg-one footer-cta">
@@ -559,63 +582,136 @@
   <!-- END FOOTER CTA -->
 
 
-  <!-- FOOTER -->
-  <footer class="section bg-gray footer">
+  
+
+  <!-- Footer -->
+
+<div style="clear:both"></div>
+
+  
+     <footer id="footer" class="section bg-gray footer">
+
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
-          <h5>Lugada</h5>
+          <h5>Roweium</h5>
           <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Features</a></li>
-            <li><a href="index.html">About Us</a></li>
-            <li><a href="index.html">FAQ</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="work/">Our Work</a></li>
+            <li><a href="about/">About Us</a></li>
+            <li><a href="contact/">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-sm-6">
           <h5>Social</h5>
           <ul class="list-unstyled">
-            <li><a href="index.html">Facebook</a></li>
-            <li><a href="index.html">Twitter</a></li>
-            <li><a href="index.html">Behance</a></li>
-            <li><a href="index.html">Dribbble</a></li>
+            <li><a href="roweium">Facebook</a></li>
+            <li><a href="@Rowieum">Twitter</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Youtube</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-sm-6">
           <h5>Support</h5>
           <ul class="list-unstyled">
-            <li><a href="index.html">Help & Support</a></li>
-            <li><a href="index.html">Privacy Policy</a></li>
-            <li><a href="index.html">Terms & Conditions</a></li>
+            <li><a href="http://support.roweium.com">Help & Support</a></li>
+            <li><a href="privacy/">Privacy Policy</a></li>
+            <li><a href="terms/">Terms & Conditions</a></li>
           </ul>
         </div>
 
         <div class="col-md-3 col-sm-6">
           <h5>Contact</h5>
           <address>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890<br/>
-            E: <a href="mailto:lugada@lugada.com">lugada@lugada.com</a>
+            4072 Rue York<br>
+            Montreal, PQ, H24 424<br>
+            <abbr title="Phone">P:</abbr> (416) 847-6784 <br/>
+            E: <a href="mailto:hello@roweium.com">hello@roweium.com</a>
           </address>
         </div>
 
       </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="footer-alt">
-            <p class="pull-right">2017 © Roweium</p>
-            <p class="logo"><img src="images/roweium/logo-2.png" alt="" height="44" width="150"></i>Roweium</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </footer>
+         
+ <div class="container text-center wow fadeIn" data-wow-duration="1500ms" data-wow-delay="300ms" style="visibility:; animation-duration: 1500ms; animation-delay: 300ms; animation-name: none;">               
+     
+<div class="row">
+ <div class="col-md-6">
+<p><span class="copyright text-muted">Copyright &copy;{{ site.time | date: '%Y' }} {{ site.copyright_name }} - All Rights Reserved.</span></p>
+ </div> 
+<div class="col-md-6">
+<span> 
+  <a class="cpl-link1" href="privacy" target="_blank">Privacy Policy</a>
+  <a class="cpl-link0" href="terms" target="_blank">Terms &amp; Conditions</a>
+    </span>
+     </div>
+</div>            
 
-  <!-- END FOOTER -->
+</div>
+        </footer>
+
+
+<footer class="hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% if site.twitter_username %}
+                    <li>
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li>
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li>
+                        <a href="https://github.com/{{ site.github_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.email_username %}
+                    <li>
+                        <a href="mailto:{{ site.email_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <p class="copyright text-muted">Copyright &copy;{{ site.time | date: '%Y' }} {{ site.copyright_name }}  </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
