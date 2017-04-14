@@ -246,7 +246,7 @@ textarea {
 }
 .btn.btn-rnd {
   padding: 11px 40px;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 .btn-custom:focus {
   background: #fa3b7c;
@@ -258,12 +258,32 @@ textarea {
   border: 1px solid #fb6d9d;
 }
 .btn-custom {
-  background: #fa4a86 !important;
+  background: #551A8B !important;
   color: #fff !important;
   border: 1px solid #fa4a86;
 }
 
+.btn-custom-2 {
+  background: #AA8CC5 !important;
+  color: #fff !important;
+  border: 1px solid #AA8CC5;
+}
 
+.btn-custom-2:hover {
+  background: #fb6d9d !important;
+  border: 1px solid #fb6d9d;
+}
+
+.btn-custom-3 {
+  background: #00FF7F !important;
+  color: #fff !important;
+  border: 1px solid #00FF7F;
+}
+
+.btn-custom-3:hover {
+  background: #fb6d9d !important;
+  border: 1px solid #fb6d9d;
+}
 /*======= Home =======*/
 .navbar-abs {
   position: absolute;
@@ -464,6 +484,11 @@ textarea {
 }
 .pr-button {
   margin-top: 30px;
+}
+
+.pr-button-1 {
+  margin-top: 10px;
+  margin-left: 10px !important;
 }
 
 /*======= Testimonials =======*/
