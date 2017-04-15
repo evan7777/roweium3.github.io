@@ -284,6 +284,17 @@ textarea {
   background: #fb6d9d !important;
   border: 1px solid #fb6d9d;
 }
+
+.btn-custom-4 {
+  background: #4c5667 !important; 
+  color: #fff !important;
+  border: 1px solid #4c5667;;
+}
+
+.btn-custom-4:hover {
+  background: #fb6d9d !important;
+  border: 1px solid #fb6d9d;
+}
 /*======= Home =======*/
 .navbar-abs {
   position: absolute;
@@ -538,7 +549,9 @@ textarea {
   margin-right: 5px;
 }
 
-
+.logo-grey {
+  margin-right: 270px;
+}
 /*======= FAQ ======*/
 .question {
   color: #444;
