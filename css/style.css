@@ -246,7 +246,7 @@ textarea {
 }
 .btn.btn-rnd {
   padding: 11px 40px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .btn-custom:focus {
   background: #fa3b7c;
