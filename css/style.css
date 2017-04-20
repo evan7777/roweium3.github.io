@@ -9,7 +9,7 @@
 
 
 /*========= Custom Font =========*/
-@font-face {
+/*@font-face {
     font-family: "WeblySleek UI";
     src: url("../fonts/ws-ui.eot");
     src: local('WeblySleek UI Regular'), url("../fonts/ws-ui.woff") format("woff");
